@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramadan Kareem</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4e3d7;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .greeting-container {
+    text-align: center;
+  }
+  .greeting {
+    font-size: 2em;
+    color: #5c4a3f;
+    animation: fadeInUp 2s ease forwards;
+  }
+  .ramadan-kareem {
+    color: #dab88b;
+    font-size: 4em;
+    margin: 20px 0;
+    animation: fadeIn 4s ease forwards;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(40px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  .myFooter {
+    text-align: center;
+    color: #ffffff;
+    background-color: #5c4a3f;
+    padding: 10px 0;
+    margin-top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .myFooter p {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+  }
+  .myFooter a {
+    color: #dab88b;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .myFooter a:hover {
+    text-decoration: underline;
+  }
+  .myFooter .fa-heart {
+    color: red;
+  }
+</style>
+</head>
+<body>
+  <div class="greeting-container">
+    <div class="greeting">Wishing you and your family</div>
+    <div class="ramadan-kareem">Ramadan Kareem ❤</div>
+    <div class="greeting">May this holy month bring peace and happiness to you and your loved ones</div>
+  </div>
+  <div class="myFooter">
+    <p>&copy; 2024 Powered By <a href="https://www.facebook.com/omarmosharawi/" target="_blank" rel="noopener noreferrer">Omar Mohamed Sharawi</a> <i class="fas fa-heart"></i> All rights reserved.</p>
+  </div>
+</body>
+</html>
