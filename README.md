@@ -8,7 +8,7 @@ This repository contains a web page designed to greet everyone during Ramadan. I
 
 ## How to Use
 
-To view the greeting, simply open the `index.html` file in any web browser or visit the live demo here [Ramadan Kareem](https://omarmosharawi.github.io/RamadanKareem/).
+To view the greeting, simply open the `index.html` file in any web browser or visit the live demo here [Ramadan Kareem](https://omarmosharawi.github.io/RK24/).
 
 # Technologies Used
 - HTML
